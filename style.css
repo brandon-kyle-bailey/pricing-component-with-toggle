@@ -17,8 +17,12 @@ body {
 }
 
 .attribution {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
     font-size: 11px;
     text-align: center;
+    transform: translateX(-50%);
 }
 
 .attribution a {
