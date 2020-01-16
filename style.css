@@ -145,6 +145,39 @@ input:checked+.slider:before {
     color: white;
 }
 
+.price {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.line-break {
+    height: 1px;
+    background: var(--dark-gray-blue);
+}
+
+button {
+    margin-top: 20px;
+    background: var(--primary-gradient);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.card-main>button {
+    color: black;
+    background: white;
+}
+
+.card-main>.line-break {
+    background: white;
+}
+
 .attribution {
     position: fixed;
     left: 50%;
