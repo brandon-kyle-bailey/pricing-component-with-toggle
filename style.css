@@ -24,11 +24,21 @@ body {
     align-items: center;
 }
 
+.our-pricing {
+    margin: auto;
+    text-align: center;
+}
+
 .package-toggle {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.package-toggle>* {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -82,9 +92,9 @@ input:checked+.slider {
 }
 
 input:checked+.slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
+    -webkit-transform: translateX(46px);
+    -ms-transform: translateX(46px);
+    transform: translateX(46px);
 }
 
 
